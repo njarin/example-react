@@ -26,9 +26,9 @@ export default class Items extends React.Component {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Items />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//   ReactDOM.render(
+//     <Items />,
+//     document.body.appendChild(document.createElement('div')),
+//   )
+// })
