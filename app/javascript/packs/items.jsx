@@ -16,7 +16,6 @@ export default class Items extends React.Component {
     }
 
   render () {
-    console.log(this.state)
     return (
       <div>
         <h1>This is where a list of items will be...</h1>
