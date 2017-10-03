@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```bash
+bundle install
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+rake db:setup
+rails s
+brew install node
+npm install
+# and you might need to run this...  
+./bin/webpack-dev-server --host 127.0.0.1 
+# in another tab to make the React compile
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
